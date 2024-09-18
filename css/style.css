@@ -882,4 +882,32 @@ label{
         max-width: 350px !important;
         padding: 0 20px;
     }
+    .hero-header{
+        margin-bottom: 40px;
+        font-size: 22px;
+    }
+    .hero-para{
+        font-weight: 500;
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 22px;
+        letter-spacing: 3px;
+        margin: 40px 0;
+    }
+    .sub-para {
+        margin-bottom: 60px;
+        font-size: 19px;
+        font-weight: 700;
+        padding: 0 12px;
+        text-align: left;
+    }
+    .service-header {
+        font-size: 25px;
+        margin: 16px 0;
+        font-weight: 500;
+    }
+    .btn{
+        padding: 17px 12px !important;
+    }
 }
