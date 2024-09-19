@@ -850,9 +850,9 @@ label{
     .about-image-box{
         flex-direction: column;
     }
-    /* .about-contents{
+    .about-contents{
         width: 100%;
-    } */
+    }
 
     .uniq-box-list {
         flex-direction: column;
