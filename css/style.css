@@ -716,17 +716,18 @@ label{
 }
 .footer-menu{
     display: flex;
-    max-width: 1220px;
+    max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-    /* color: #ccc; */
+    
 }
 .footer-list{
     display: flex;
     list-style: none;
+    
 }
 .footer-item{
-    
+    padding-bottom: 15px;
 }
 .footer-content-wrapper{
     background-color: #000;
@@ -889,6 +890,9 @@ label{
     }
     .footer-list {
         flex-direction: column;
+    }
+    .footer-menu{
+        align-items: end;
     }
     
 }
