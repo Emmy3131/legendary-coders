@@ -776,6 +776,7 @@ label{
         max-width: 450px !important;
         margin: 0 auto;
     }
+    
     .nav-container {
         flex-direction: row;
         align-items: flex-start;
@@ -902,6 +903,10 @@ label{
     .row{
         max-width: 350px !important;
         padding: 0 20px;
+        margin: 0 auto;
+    }
+    section{
+        max-width: 100%;
     }
     .hero-header{
         margin-bottom: 40px;
