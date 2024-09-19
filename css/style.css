@@ -716,7 +716,7 @@ label{
 }
 .footer-menu{
     display: flex;
-    max-width: 1200px;
+    padding: 0 50px;
     margin: 0 auto;
     justify-content: space-between;
     
@@ -773,8 +773,9 @@ label{
 
 @media screen and (max-width: 900px){
     .row{
-        max-width: 450px !important;
-        margin: 0 auto;
+        max-width: 480px !important;
+        margin: 0 auto !important;
+        padding: 0 40px;
     }
     
     .nav-container {
@@ -819,7 +820,7 @@ label{
         font-size: 19px;
     }
     .sub-header{
-        max-width: 97% !important;
+        /* max-width: 97% !important; */
     }
     
     .hero-header{
@@ -849,9 +850,9 @@ label{
     .about-image-box{
         flex-direction: column;
     }
-    .about-contents{
+    /* .about-contents{
         width: 100%;
-    }
+    } */
 
     .uniq-box-list {
         flex-direction: column;
@@ -897,15 +898,20 @@ label{
         max-width: 400px !important;
         margin: 0 auto !important;
     }
+    .footer-para-box{
+        width: 50%;
+        flex-direction: column;
+    }
     
 }
 @media screen and (max-width: 480px){
     .row{
-        max-width: 350px !important;
-        margin: 0 auto;
+        max-width: 400px !important;
+        margin: 0 auto !important;
+        
     }
     section{
-        max-width: 100%;
+        max-width: 400px;
     }
     .hero-header{
         margin-bottom: 40px;
@@ -924,8 +930,7 @@ label{
         margin-bottom: 60px;
         font-size: 19px;
         font-weight: 500;
-        padding: 0 12px;
-        text-align: left;
+        text-align: center;
     }
     .service-header {
         font-size: 25px;
@@ -933,6 +938,6 @@ label{
         font-weight: 500;
     }
     .btn{
-        padding: 17px 12px !important;
+        padding: 17px 10px !important;
     }
 }
