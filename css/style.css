@@ -902,7 +902,6 @@ label{
 @media screen and (max-width: 480px){
     .row{
         max-width: 350px !important;
-        padding: 0 20px;
         margin: 0 auto;
     }
     section{
