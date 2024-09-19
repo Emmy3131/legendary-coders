@@ -893,6 +893,8 @@ label{
     }
     .footer-menu{
         align-items: end;
+        max-width: 400px !important;
+        margin: 0 auto !important;
     }
     
 }
