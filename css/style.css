@@ -676,9 +676,10 @@ p{
 .contact-icon-text{
     flex-basis: 50%; 
 }
-/* .contact-font{
-    font-size: 20px;
-} */
+.contact-font{
+    font-size: 19px;
+    font-weight: 600;
+}
 .contact-icon-text-grow{
     flex-grow: 1;
 }
@@ -845,7 +846,6 @@ label{
     }
     .about-image-box{
         flex-direction: column;
-        /* margin-top: 100px; */
     }
     .about-contents{
         width: 100%;
@@ -863,6 +863,9 @@ label{
     .our-team-gallary-container {
         flex-direction: column;
     }
+    .team-name {
+        font-size: 20px;
+    }
     .review-content-container {
         flex-direction: column;
     }
@@ -871,6 +874,18 @@ label{
     }
     .contact-form-content-wrapper {
         flex-direction: column;
+    }
+    .contact-item-sub {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center !important;
+        text-align: center;
+    }
+    .contact-font{
+        
+    }
+    .contact-icon{
+        
     }
     .footer-list {
         flex-direction: column;
