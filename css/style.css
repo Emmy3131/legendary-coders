@@ -914,14 +914,14 @@ label{
         text-align: center;
     }
     .card-side{
-        height: auto;
+        height: fit-content;
         position: relative;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 30%);
         border-radius: 3px;
     }
     .card{
         /* position: relative; */
-        height: auto;
+        height: fit-content;
         box-sizing: none;
     }
     .card-side-back{
@@ -931,7 +931,13 @@ label{
         gap: 0;
         transform: translateY(0);
         overflow: hidden;
-    
+    }
+    .cad-para-price{
+        padding: 30px 0;
+    }
+    .card-link{
+        transform: translateY(0); 
+        margin-bottom: 15px;
     }
     .service-header {
         font-size: 25px;
@@ -944,6 +950,7 @@ label{
     .about-section{
         overflow: hidden;
     }
+    .hero-section{overflow: hidden;}
     .section-courses{overflow: hidden;}
     .uniq-section{overflow: hidden;}
     .servce-section{overflow: hidden;}
