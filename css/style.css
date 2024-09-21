@@ -863,21 +863,6 @@ label{
     .populer-plan-content-wrapper {
         flex-direction: column;
     }
-    .card{
-        position: relative;
-        height: auto;
-        box-sizing: none;
-    }
-    
-    .card-side{
-        height: auto;
-        position: relative;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 30%);
-        border-radius: 3px;
-    }
-    .card-side-back{
-        transform: rotateY(0deg);
-    }
     .contact-form-content-wrapper {
         flex-direction: column;
     }
@@ -927,6 +912,26 @@ label{
         font-size: 19px;
         font-weight: 500;
         text-align: center;
+    }
+    .card-side{
+        height: auto;
+        position: relative;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 30%);
+        border-radius: 3px;
+    }
+    .card{
+        /* position: relative; */
+        height: auto;
+        box-sizing: none;
+    }
+    .card-side-back{
+        transform: rotateY(0deg);
+    }
+    .card-side-box{
+        gap: 0;
+        transform: translateY(0);
+        overflow: hidden;
+    
     }
     .service-header {
         font-size: 25px;
