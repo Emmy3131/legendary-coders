@@ -293,6 +293,7 @@ p{
 /*--------uniq-section--------*/
 .uniq-section{
     background-color: var(--primary-bg-color);
+    padding: 50px 0;
 }
 .uniq-box-list{
     display: flex;
@@ -308,6 +309,9 @@ p{
 }
 
 /*-----------service-section------*/
+.service-section{
+    padding: 50px 0;
+}
 .service-box{
     display: flex;
     gap: 50px;
@@ -371,6 +375,7 @@ p{
 /*-------leadership-section------*/
 .leadership-section{
     background-color: var(--primary-color-1);
+    padding: 50px 0;
 }
 
 .leadership-header-box{
