@@ -823,7 +823,7 @@ label{
       }
     .about-content-container {
         flex-direction: column;
-        overflow: hidden;
+       
     }
     .about-section::after {
         content: "";
@@ -844,29 +844,24 @@ label{
 
     .uniq-box-list {
         flex-direction: column;
-        overflow: hidden;
     }
     .service-box {
         flex-direction: column-reverse;
-        overflow: hidden;
     }
     .service-main-item-box {
         flex-direction: column;
     }
     .our-team-gallary-container {
         flex-direction: column;
-        overflow: hidden;
     }
     .team-name {
         font-size: 20px;
     }
     .review-content-container {
         flex-direction: column;
-        overflow: hidden;
     }
     .populer-plan-content-wrapper {
         flex-direction: column;
-        overflow: hidden;
     }
     .card{
         position: relative;
@@ -885,7 +880,6 @@ label{
     }
     .contact-form-content-wrapper {
         flex-direction: column;
-        overflow: hidden;
     }
     .contact-item-sub {
         flex-direction: column;
@@ -942,4 +936,14 @@ label{
     .btn{
         padding: 17px 10px !important;
     }
+    .about-section{
+        overflow: hidden;
+    }
+    .section-courses{overflow: hidden;}
+    .uniq-section{overflow: hidden;}
+    .servce-section{overflow: hidden;}
+    .our-team-section{overflow: hidden;}
+    .review-section{overflow: hidden;}
+    .plan-section{overflow: hidden;}
+    .contact-section{overflow: hidden;}
 }
