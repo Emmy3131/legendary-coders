@@ -5,6 +5,8 @@
 }
 html{
     font-family: Lato, sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 
@@ -766,7 +768,7 @@ label{
     .row{
         max-width: 480px !important;
         margin: 0 auto !important;
-        padding: 0 40px;
+        padding: 0 20px;
     }
     
     .nav-container {
