@@ -753,7 +753,7 @@ label{
     100%{opacity: 1;}
 }
 .hero-text-box{
-    animation: emmy 8s;
+    animation: emmy 5s;
 }
 .sub-hero-ani{
     animation: emmy 30s;
